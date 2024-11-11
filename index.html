@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeWo-direkt</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+
+        .logo h1 {
+            color: #0073E6;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Banner Section */
+        .banner {
+            position: relative;
+            padding: 100px 20px;
+            text-align: center;
+            background-image: url('bannerimg.avif'); /* Path to the uploaded image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .banner-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .small-image {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>FeWo-direkt</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">App herunterladen</a></li>
+                <li><a href="#">Reiseplaner</a></li>
+                <li><a href="#">Unterkunft registrieren</a></li>
+                <li><a href="#">Hilfe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Banner Section -->
+    <section class="banner">
+        <div class="banner-content">
+            <h2>Alles gut, du buchst bei FeWo-direkt</h2>
+            <div class="search-box">
+                <input type="text" placeholder="Wo soll’s hingehen?">
+                <input type="text" placeholder="23. Nov. - 7. Dez.">
+                <input type="text" placeholder="2 Reisende">
+                <button>Suchen</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations Section -->
+    <section class="destinations">
+        <h3>Beliebte Reiseziele</h3>
+        <div class="destination-list">
+            <div class="destination">
+                <img src="kigali.avif" alt="Destination 1">
+                <p>Destination 1</p>
+            </div>
+            <div class="destination">
+                <img src="kigali.avif" alt="Destination 2">
+                <p>Destination 2</p>
+            </div>
+            <div class="destination">
+                <img src="kigali.avif" alt="Destination 3">
+                <p>Destination 3</p>
+            </div>
+            <div class="destination">
+                <img src="kigali.avif" alt="Destination 4">
+                <p>Destination 4</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>FeWo-direkt erkunden</h4>
+                <ul>
+                    <li><a href="#">Unterkunft inserieren</a></li>
+                    <li><a href="#">Mit Vertrauen buchen</a></li>
+                    <li><a href="#">Vertrauen und Sicherheit</a></li>
+                    <li><a href="#">Ressourcen für Partner</a></li>
+                    <li><a href="#">Ferienhäuser und Urlaubsinspiration</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Unternehmen</h4>
+                <ul>
+                    <li><a href="#">Über uns</a></li>
+                    <li><a href="#">Karriere</a></li>
+                    <li><a href="#">Affiliate-Partner</a></li>
+                    <li><a href="#">Presse</a></li>
+                    <li><a href="#">Allgemeine Geschäftsbedingungen</a></li>
+                    <li><a href="#">Datenschutzrichtlinien</a></li>
+                    <li><a href="#">Cookie-Erklärung</a></li>
+                    <li><a href="#">Melden illegaler Inhalte</a></li>
+                    <li><a href="#">Rechtliche Hinweise/Kontakt</a></li>
+                    <li><a href="#">Verantwortlicher Eigentümer</a></li>
+                    <li><a href="#">Inhaltsrichtlinien und Melden von Inhalten</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Die Vrbo-Familie</h4>
+                <ul>
+                    <li><a href="#">Vrbo</a></li>
+                    <li><a href="#">Abritel.fr</a></li>
+                    <li><a href="#">FeWo-direkt.de</a></li>
+                    <li><a href="#">Bookabach.co.nz</a></li>
+                    <li><a href="#">Stayz.com.au</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FeWo-direkt, ein Unternehmen der Expedia Group. Alle Rechte vorbehalten. FeWo-direkt und das FeWo-direkt-Logo sind Handelsmarken oder eingetragene Handelsmarken von HomeAway.com, Inc.</p>
+        </div>
+    </footer>
+</body>
+</html>
